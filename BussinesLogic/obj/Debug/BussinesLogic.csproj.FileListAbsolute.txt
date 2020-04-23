@@ -1,0 +1,11 @@
+C:\Users\nicol\source\repos\Curso\BussinesLogic\bin\Debug\BussinesLogic.dll
+C:\Users\nicol\source\repos\Curso\BussinesLogic\bin\Debug\BussinesLogic.pdb
+C:\Users\nicol\source\repos\Curso\BussinesLogic\bin\Debug\DataAccess.dll
+C:\Users\nicol\source\repos\Curso\BussinesLogic\bin\Debug\Domain.dll
+C:\Users\nicol\source\repos\Curso\BussinesLogic\bin\Debug\DataAccess.pdb
+C:\Users\nicol\source\repos\Curso\BussinesLogic\bin\Debug\Domain.pdb
+C:\Users\nicol\source\repos\Curso\BussinesLogic\obj\Debug\BussinesLogic.csprojAssemblyReference.cache
+C:\Users\nicol\source\repos\Curso\BussinesLogic\obj\Debug\BussinesLogic.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\Curso\BussinesLogic\obj\Debug\BussinesLogic.csproj.CopyComplete
+C:\Users\nicol\source\repos\Curso\BussinesLogic\obj\Debug\BussinesLogic.dll
+C:\Users\nicol\source\repos\Curso\BussinesLogic\obj\Debug\BussinesLogic.pdb

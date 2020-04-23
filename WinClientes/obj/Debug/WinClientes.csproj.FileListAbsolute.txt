@@ -1,0 +1,17 @@
+C:\Users\nicol\source\repos\Curso\WinClientes\bin\Debug\WinClientes.exe.config
+C:\Users\nicol\source\repos\Curso\WinClientes\bin\Debug\WinClientes.exe
+C:\Users\nicol\source\repos\Curso\WinClientes\bin\Debug\WinClientes.pdb
+C:\Users\nicol\source\repos\Curso\WinClientes\obj\Debug\WinClientes.csprojAssemblyReference.cache
+C:\Users\nicol\source\repos\Curso\WinClientes\obj\Debug\WinClientes.FormAdmCli.resources
+C:\Users\nicol\source\repos\Curso\WinClientes\obj\Debug\WinClientes.Properties.Resources.resources
+C:\Users\nicol\source\repos\Curso\WinClientes\obj\Debug\WinClientes.csproj.GenerateResource.cache
+C:\Users\nicol\source\repos\Curso\WinClientes\obj\Debug\WinClientes.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\Curso\WinClientes\obj\Debug\WinClientes.exe
+C:\Users\nicol\source\repos\Curso\WinClientes\obj\Debug\WinClientes.pdb
+C:\Users\nicol\source\repos\Curso\WinClientes\bin\Debug\BussinesLogic.dll
+C:\Users\nicol\source\repos\Curso\WinClientes\bin\Debug\DataAccess.dll
+C:\Users\nicol\source\repos\Curso\WinClientes\bin\Debug\Domain.dll
+C:\Users\nicol\source\repos\Curso\WinClientes\bin\Debug\BussinesLogic.pdb
+C:\Users\nicol\source\repos\Curso\WinClientes\bin\Debug\DataAccess.pdb
+C:\Users\nicol\source\repos\Curso\WinClientes\bin\Debug\Domain.pdb
+C:\Users\nicol\source\repos\Curso\WinClientes\obj\Debug\WinClientes.csproj.CopyComplete

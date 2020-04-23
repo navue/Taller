@@ -1,0 +1,17 @@
+C:\Users\nicol\source\repos\Curso\WinProductos\bin\Debug\WinProductos.exe.config
+C:\Users\nicol\source\repos\Curso\WinProductos\bin\Debug\WinProductos.exe
+C:\Users\nicol\source\repos\Curso\WinProductos\bin\Debug\WinProductos.pdb
+C:\Users\nicol\source\repos\Curso\WinProductos\bin\Debug\BussinesLogic.dll
+C:\Users\nicol\source\repos\Curso\WinProductos\bin\Debug\DataAccess.dll
+C:\Users\nicol\source\repos\Curso\WinProductos\bin\Debug\Domain.dll
+C:\Users\nicol\source\repos\Curso\WinProductos\bin\Debug\BussinesLogic.pdb
+C:\Users\nicol\source\repos\Curso\WinProductos\bin\Debug\DataAccess.pdb
+C:\Users\nicol\source\repos\Curso\WinProductos\bin\Debug\Domain.pdb
+C:\Users\nicol\source\repos\Curso\WinProductos\obj\Debug\WinProductos.csprojAssemblyReference.cache
+C:\Users\nicol\source\repos\Curso\WinProductos\obj\Debug\WinProductos.FormProductos.resources
+C:\Users\nicol\source\repos\Curso\WinProductos\obj\Debug\WinProductos.Properties.Resources.resources
+C:\Users\nicol\source\repos\Curso\WinProductos\obj\Debug\WinProductos.csproj.GenerateResource.cache
+C:\Users\nicol\source\repos\Curso\WinProductos\obj\Debug\WinProductos.csproj.CoreCompileInputs.cache
+C:\Users\nicol\source\repos\Curso\WinProductos\obj\Debug\WinProductos.csproj.CopyComplete
+C:\Users\nicol\source\repos\Curso\WinProductos\obj\Debug\WinProductos.exe
+C:\Users\nicol\source\repos\Curso\WinProductos\obj\Debug\WinProductos.pdb
