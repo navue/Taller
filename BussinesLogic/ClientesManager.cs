@@ -19,5 +19,20 @@ namespace BussinesLogic
             }
             else return 0;
         }
+
+        public static int Eliminar(int Id) 
+        {
+            return ClientesDAL.Eliminar(Id);
+        }
+
+        public static List<Cliente> Buscar()
+        {
+            return ClientesDAL.Buscar();
+        }
+
+        public static List<Cliente> Buscar(string pNombre, string pApellido)
+        {
+            return ClientesDAL.Buscar(pNombre, pApellido);
+        }
     }
 }

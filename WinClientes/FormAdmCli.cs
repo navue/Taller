@@ -26,9 +26,24 @@ namespace WinClientes
         private void tsbtnGurdar_Click(object sender, EventArgs e)
         {
             Cliente pCliente = ObtenerCliente();
-            ClientesManager.Guardar(pCliente);
-            ActualizarGrilla();
-            Limpiar();
+            if (ClientesManager.Guardar(pCliente) == 0)
+            {
+                MessageBox.Show("Fecha de nacimiento erronea.");
+            }
+            else
+            {
+                if (IDCliente == 0)
+                {
+                    MessageBox.Show("Nuevo registro guardado con éxito.");
+                }
+                else
+                {
+                    MessageBox.Show("Registro actualizado con éxito.");
+                }
+                ClientesManager.Guardar(pCliente);
+                ActualizarGrilla();
+                Limpiar();
+            }
         }
 
         private void tsbtnCancelar_Click(object sender, EventArgs e)
@@ -54,12 +69,12 @@ namespace WinClientes
         {
             if (textBoxNom.Text != "" || textBoxAp.Text != "")
             {
-                List<Cliente> lista = ClientesDAL.Buscar(textBoxNom.Text, textBoxAp.Text);
+                List<Cliente> lista = ClientesManager.Buscar(textBoxNom.Text, textBoxAp.Text);
                 dgvBuscar.DataSource = lista;
             }
             else
             {
-                List<Cliente> lista = ClientesDAL.Buscar();
+                List<Cliente> lista = ClientesManager.Buscar();
                 dgvBuscar.DataSource = lista;
             }
         }
@@ -89,7 +104,9 @@ namespace WinClientes
 
         private void tsbtnEliminar_Click(object sender, EventArgs e)
         {
-            ClientesDAL.Eliminar(IDCliente);
+            ClientesManager.Eliminar(IDCliente);
+            MessageBox.Show("Registro eliminado con éxito.");
+            Limpiar();
         }
 
         private void tsbtnBuscar_Click(object sender, EventArgs e)

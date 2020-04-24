@@ -25,9 +25,24 @@ namespace WinProductos
         private void tsbtnGurdar_Click(object sender, EventArgs e)
         {
             Producto pProducto = ObtenerProducto();
+            if (ProductoManager.Guardar(pProducto) == 0)
+            {
+                MessageBox.Show("Campo Nombre vacío.");
+            }
+            else
+            {
+                if (IDProducto == 0)
+                {
+                    MessageBox.Show("Nuevo registro guardado con éxito.");
+                }
+                else
+                {
+                    MessageBox.Show("Registro actualizado con éxito.");
+                }
             ProductoManager.Guardar(pProducto);
             ActualizarGrilla();
             Limpiar();
+            }
         }
 
         private void tsbtnCancelar_Click(object sender, EventArgs e)
@@ -57,12 +72,12 @@ namespace WinProductos
         {
             if (textBoxNom.Text == "")
             {
-                List<Producto> lista = ProductosDAL.Buscar();
+                List<Producto> lista = ProductoManager.Buscar();
                 dgvBuscar.DataSource = lista;
             }
             else
             {
-                List<Producto> lista = ProductosDAL.Buscar(textBoxNom.Text);
+                List<Producto> lista = ProductoManager.Buscar(textBoxNom.Text);
                 dgvBuscar.DataSource = lista;
             }
         }
@@ -88,7 +103,9 @@ namespace WinProductos
 
         private void tsbtnEliminar_Click(object sender, EventArgs e)
         {
-            ProductosDAL.Eliminar(IDProducto);
+            ProductoManager.Eliminar(IDProducto);
+            MessageBox.Show("Registro eliminado con éxito.");
+            Limpiar();
         }
 
         private void tsbtnBuscar_Click(object sender, EventArgs e)
